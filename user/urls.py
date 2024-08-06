@@ -4,7 +4,7 @@ from .views import JoinView, LoginView, ChangePasswordView, EncryptedUserView, U
 
 urlpatterns = [
     path('join/', JoinView.as_view(), name='join'),
-    path('login/', LoginView.as_view(), name='login'),
+    path('', LoginView.as_view(), name='login'),
     path('google/', include('allauth.socialaccount.providers.google.urls')),
     path('kakao/', include('allauth.socialaccount.providers.kakao.urls')),
     path('account/change-password/', ChangePasswordView.as_view(), name='change-password'),
