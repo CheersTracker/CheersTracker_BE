@@ -169,6 +169,10 @@ CORS_ALLOW_HEADERS = (
     "x-requested-with",
 )
 
+CORS_ALLOWED_ORIGINS = [
+    "http://cheers-tracker.site",
+]
+
 ROOT_URLCONF = 'cheersTrackerProject.urls'
 
 TEMPLATES = [
