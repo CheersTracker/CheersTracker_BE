@@ -45,6 +45,7 @@ SECRET_KEY = get_secret("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    "52.78.205.158",
     ".cheers-tracker.site",
 ]
 
