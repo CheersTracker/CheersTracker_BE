@@ -45,9 +45,6 @@ SECRET_KEY = get_secret("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
-    ".ap-northeast-2.compute.amazonaws.com",
     ".cheers-tracker.site",
 ]
 
