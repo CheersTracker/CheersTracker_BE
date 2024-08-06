@@ -203,10 +203,10 @@ DB_PASSWORD = os.getenv('CHEERSTRACKERDB_PASSWORD')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'cheerstracker',
-        'USER': 'root',
+        'NAME': 'cheersTracker',
+        'USER': 'admin',
         'PASSWORD': DB_PASSWORD,
-        'HOST': 'localhost',  # 또는 사용 중인 호스트
+        'HOST': 'cheerstrackerdb.cddmpsxlqzkm.ap-northeast-2.rds.amazonaws.com',  # 또는 사용 중인 호스트
         'PORT': '3306',  # 기본 MySQL 포트
     }
 }
