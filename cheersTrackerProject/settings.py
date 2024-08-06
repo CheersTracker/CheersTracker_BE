@@ -148,7 +148,7 @@ SOCIALACCOUNT_PROVIDERS = {
 }
 
 # CORS setting
-CORS_ORIGIN_WHITELIST = ["http://localhost:3000", "http://cheers-tracker.site",]
+#CORS_ORIGIN_WHITELIST = ["http://localhost:3000", "http://cheers-tracker.site",]
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_METHODS = (
